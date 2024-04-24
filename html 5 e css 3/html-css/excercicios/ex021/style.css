@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    margin: 3rem;
+}
+
+header{
+    text-align: center;
+}
+
+header > h1{
+    margin: 15px;
+}
+
+
+nav > a{
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+
+
+main{
+    margin-top: 3rem;
+    background-color: whitesmoke;
+
+    box-shadow: -20px 15px 20px 20px black;
+
+    border-radius: 1px 10px 10px 10px;
+
+    padding: 10px;
+}
+
+section > h1,h2{
+    text-align: center;
+}
+
+
+footer{
+    text-align: center;
+}
