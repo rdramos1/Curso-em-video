@@ -1,0 +1,76 @@
+@font-face{
+    font-family: idroid;
+
+    /*Caso a fonte esteja na mesma pasta*/
+    src: url("skibi/fontes/idroid.otf");
+}
+body{
+    font-family: arial;
+    background: #84E1AD;
+    margin: 0;
+    padding: 0;
+}
+#idroid{
+    font-family: idroid;
+    color: #286844;
+}
+.mark{
+    background-color: #cff8e1;
+}
+
+#margin{
+    margin: 10px;
+}
+
+main{
+    background-color: white;
+    margin: 0rem 15rem 0rem 15rem;
+}
+.centerimg{
+    text-align: center;
+}
+
+section{
+    background-color: #C5EBD6;
+    margin: 10px;
+    border-radius: 3% 3% 3% 3%;
+}
+
+section > h1{
+    background-color: #2FA866;
+    color: white;
+    border-radius: 3% 3% 0% 0%;
+}
+
+#list{
+    display: flex;
+}
+
+header{
+   color: white;
+  background-image: linear-gradient(
+    to bottom,
+        #3CDB83,
+        #195A36
+  );     
+}
+
+header > a{
+    color: white;
+    text-decoration: none;
+}
+header > h1{
+    color: white;
+    text-decoration: none;
+}
+header > p{
+}
+
+#center{
+    text-align: center;
+}
+
+footer{
+    background-color: #1A5C38;
+    text-align: center;
+}
